@@ -25,7 +25,7 @@ module Fitbit
     end
 
     def auth_header
-      { 'Authorization' => "Bearer #{session[:fitbit_token]}" }
+      { 'Authorization' => "Bearer #{ENV['FITBIT_TOKEN']}" }
     end
 
   end

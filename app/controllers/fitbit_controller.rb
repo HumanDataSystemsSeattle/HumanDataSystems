@@ -4,8 +4,6 @@ class FitbitController < ApplicationController
   end
 
   def callback
-    session[:fitbit_token] = params[:access_token]
-
     redirect_to fitbit_dashboard_path
   end
 
