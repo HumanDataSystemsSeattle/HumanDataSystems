@@ -52,6 +52,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    chartkick (3.3.0)
     childprocess (3.0.0)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -180,6 +181,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara (>= 2.15)
+  chartkick (~> 3.3.0)
   coffee-rails (~> 4.2)
   httparty (~> 0.13.7)
   jbuilder (~> 2.5)
